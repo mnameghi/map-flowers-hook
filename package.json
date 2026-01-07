@@ -1,5 +1,8 @@
 {
-  "name": "map-flowers-hook",
+  "name": "@mnameghi/map-flowers-hook",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.0",
   "description": "React hook for adding flowers layers on MapLibre and MapBox maps",
   "keywords": [
