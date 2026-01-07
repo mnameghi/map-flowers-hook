@@ -1,9 +1,11 @@
 # Map Flowers Hook 🌸
 
 [![npm version](https://img.shields.io/npm/v/@mnameghi/map-flowers-hook.svg)](https://www.npmjs.com/package/@mnameghi/map-flowers-hook)
-[![CI/CD](https://github.com/mnameghi/map-flowers-hook/workflows/CI/badge.svg)](https://github.com/mnameghi/map-flowers-hook/actions)
+[![CI/CD](https://github.com/mnameghi/map-flowers-hook/actions/workflows/publish.yml/badge.svg)](https://github.com/mnameghi/map-flowers-hook/actions)
 
 A React hook for adding flower layers to MapLibre GL JS and MapBox GL JS maps. Flowers appear randomly on the map and disappear with animations when hovered.
+
+![demo](docs/flowers.gif)
 
 ## Features
 
