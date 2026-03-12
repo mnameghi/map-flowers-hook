@@ -19,15 +19,15 @@ A React hook for adding flower layers to MapLibre GL JS and MapBox GL JS maps. F
 ## Installation
 
 ```bash
-npm install map-flowers-hook
+npm install @mnameghi/map-flowers-hook
 ```
 
 ```bash
-yarn add map-flowers-hook
+yarn add @mnameghi/map-flowers-hook
 ```
 
 ```bash
-pnpm add map-flowers-hook
+pnpm add @mnameghi/map-flowers-hook
 ```
 
 ## Usage
@@ -37,6 +37,7 @@ pnpm add map-flowers-hook
 ```tsx
 import React, { useRef, useEffect, useState } from "react";
 import maplibregl from "maplibre-gl";
+import "maplibre-gl/dist/maplibre-gl.css";
 import { useFlowersLayer } from "@mnameghi/map-flowers-hook";
 
 function MapComponent() {
@@ -170,6 +171,10 @@ Works in all modern browsers that support:
 MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Changelog
+
+### 1.0.1
+
+- update document
 
 ### 1.0.0
 
